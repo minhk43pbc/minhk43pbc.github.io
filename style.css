@@ -38,7 +38,7 @@ ol.pubs li{margin-bottom:10px}
 .fun{font-size:15px;color:var(--muted);margin:8px 0 0}
 .gallery{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
 .gallery figure{margin:0}
-.gallery img{width:100%;height:auto;border:1px solid #ccc;display:block}
+.gallery img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border:1px solid #ccc;display:block}
 .gallery figcaption{font-size:14px;color:var(--muted);margin-top:6px}
 .gallery .wide{grid-column:1/-1}
 .gallery .small img{max-width:300px}
