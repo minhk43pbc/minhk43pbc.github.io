@@ -36,6 +36,13 @@ ol.pubs li{margin-bottom:10px}
 .quote{margin:12px 0 4px;padding:6px 12px;border-left:4px solid var(--blue);background:var(--box);font-style:italic}
 .quote span{font-style:normal;color:var(--muted);white-space:nowrap}
 .fun{font-size:15px;color:var(--muted);margin:8px 0 0}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
+.gallery figure{margin:0}
+.gallery img{width:100%;height:auto;border:1px solid #ccc;display:block}
+.gallery figcaption{font-size:14px;color:var(--muted);margin-top:6px}
+.gallery .wide{grid-column:1/-1}
+.gallery .small img{max-width:300px}
+@media (max-width:760px){.gallery{grid-template-columns:1fr}}
 footer{margin-top:40px;font-size:13px;color:var(--muted);border-top:1px solid #ddd;padding-top:6px}
 .menu-btn{display:none}
 @media (max-width:760px){
