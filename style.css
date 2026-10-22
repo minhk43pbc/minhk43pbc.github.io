@@ -47,6 +47,7 @@ ol.pubs li{margin-bottom:10px}
 .gallery .wide{grid-column:1/-1}
 .gallery .small img{max-width:300px}
 @media (max-width:760px){.gallery{grid-template-columns:1fr}}
+.langsw{float:right;font-size:14px;margin:16px 0 0 12px;color:var(--muted)}
 footer{margin-top:40px;font-size:13px;color:var(--muted);border-top:1px solid #ddd;padding-top:6px}
 .menu-btn{display:none}
 @media (max-width:760px){
