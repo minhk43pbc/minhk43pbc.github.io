@@ -5,7 +5,7 @@ html,body{margin:0;padding:0;background:#fff;color:var(--text)}
 body{font-family:"DejaVu Sans",Verdana,Arial,sans-serif;font-size:16px;line-height:1.35}
 a{color:var(--link)}
 a:hover{color:#c0392b}
-.layout{display:flex;min-height:100vh;max-width:1200px}
+.layout{display:flex;min-height:100vh;max-width:1200px;margin:0 auto}
 #sidebar{flex:0 0 280px;background:var(--side);border-right:1px solid #e3e3e3;padding:20px 8px 40px 16px}
 #sidebar h3{font-size:16px;margin:16px 0 4px;padding-bottom:1px;border-bottom:1px solid var(--rule)}
 #sidebar h3:first-child{margin-top:10px}
